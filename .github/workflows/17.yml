@@ -20,7 +20,7 @@ jobs:
           
         - name: ' Environment Settings'
           run: |
-            vcpkg install ffmpeg:x86-windows ffmpeg:x86-windows-static
+            choco install ffmpeg
             pip3 install -r ./requirements.txt
             pip3 install undetected-chromedriver
             pip3 install selenium==4.2.0            
@@ -49,7 +49,7 @@ jobs:
           
         - name: ' Environment Settings'
           run: |
-            vcpkg install ffmpeg:x86-windows ffmpeg:x86-windows-static
+            choco install ffmpeg
             pip3 install -r ./requirements.txt
             pip3 install undetected-chromedriver
             pip3 install selenium==4.2.0
