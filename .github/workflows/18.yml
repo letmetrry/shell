@@ -1,7 +1,7 @@
 name: 'H-W'
 
 on:
-  push:
+  #push:
   schedule:
     # UTC (国内 UTC+8)
      - cron: '0 12 */2 * *'
